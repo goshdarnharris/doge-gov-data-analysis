@@ -1,0 +1,15 @@
+[project]
+authors = ["George <ashandore@gmail.com>"]
+channels = ["conda-forge"]
+name = "doge-data"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+selenium = ">=4.28.1,<5"
+numpy = ">=2.2.3,<3"
+beautifulsoup4 = ">=4.13.3,<5"
+pandas = ">=2.2.3,<3"
+lxml = ">=5.3.1,<6"
